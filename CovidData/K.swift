@@ -8,6 +8,7 @@
 
 import Foundation
 
+//This is a comment
 struct K {
     static let search = "Search"
     static let summaryURL = "https://api.covid19api.com/summary"
