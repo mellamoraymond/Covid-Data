@@ -50,6 +50,7 @@ struct CovidManager {
         do {
             let decodedData = try decoder.decode(CovidData.self, from: covidData)
             
+            //Fix
             for num in 0...187 {
                 let countryData = decodedData.Countries[num].Country
                 let totalData = decodedData.Countries[num].TotalConfirmed
